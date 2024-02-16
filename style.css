@@ -1,0 +1,257 @@
+/* 		Imagen de "Samurai Jack"
+*		Gustavo Cruz
+*		22779
+*  		*/
+
+.jack {
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.bground {
+width: 100%;
+height: 100vh;
+background-color:black;
+display: flex;
+align-items:center;
+justify-content:center;
+}
+
+.jack .bground .circle_bg {
+display:flex;
+justify-content:center;
+align-items:center;
+width: 500px;
+height: 500px;
+border-radius:100%;
+background-color:grey;
+}
+
+.jack .bground .circle_bg .inner-c {
+display:flex;
+justify-content:center;
+align-items:center;
+width:470px;
+height:470px;	
+border-radius:100%;	
+background-color:red;
+}
+
+.jack .bground .circle_bg .inner-c .sword{
+display:inline-flex;
+justify-content:center;
+align-items:center;
+}
+
+.jack .bground .circle_bg .inner-c .sword .blade {
+width: 275px;
+height: 0px;
+/*Probar con inline-block*/display:inline-block;
+transform: rotate(270deg);
+margin-left:200px;
+margin-bottom:475px;
+border-right:15px solid transparent;
+border-bottom:25px solid hsl(0, 0%, 70%);
+}
+
+.handle {
+width:25px;
+height:75px;
+margin-left:-50px;
+margin-top:-57px;
+transform:rotate(270deg);
+background-color:black;
+display:block;
+align-items:space-evenly;
+}
+
+.jack .bground .circle_bg .inner-c .sword .blade .guard {
+width:40px;
+height:15px;
+margin-left:-15px;
+margin-top:-7px;
+transform:rotate(270deg);
+border-right:15px solid transparent;
+border-left:15px solid transparent;
+border-top:25px solid grey;
+
+}
+
+.jack .bground .circle_bg .inner-c .sword .blade .handle .decor1 {
+width: 13px; 
+height: 13px;
+margin-left:7px;
+transform:rotate(45deg); 
+background: yellow;
+}
+
+.jack .bground .circle_bg .inner-c .sword .blade .handle .decor2 {
+width: 13px; 
+height: 13px;
+margin-left:7px;
+margin-top:6px;
+transform:rotate(45deg); 
+background: yellow;
+}
+
+.jack .bground .circle_bg .inner-c .sword .blade .handle .decor3 {
+width: 13px; 
+height: 13px;
+margin-left:7px;
+margin-top:6px;
+transform:rotate(45deg); 
+background: yellow;
+}
+
+.jack .bground .circle_bg .inner-c .sword .blade .handle .decor4 {
+width: 13px; 
+height: 13px;
+margin-left:7px;
+margin-top:6px;
+transform:rotate(45deg); 
+background: yellow;
+}
+
+.jack .bground .circle_bg .inner-c .sword .blade .handle .clothe1 {
+width:70px;
+height:120px;
+display:flex;
+transform:rotate(180deg);
+margin-left:-125px;
+margin-top:-140px;
+border-radius:100% 0% 100% 0% / 0% 18% 82% 100%;
+background-color:white;
+align-items:center;
+justify-content:center;
+}
+
+.jack .bground .circle_bg .inner-c .sword .blade .handle .clothe1 .clothe1-s{
+width:30px;
+height:120px;
+margin-left:-40px;
+border-radius:100% 0% 100% 0% / 0% 18% 82% 100%;
+background-color:grey;
+}
+
+.jack .bground .circle_bg .inner-c .sword .blade .handle .hand{
+width:45px;
+height:45px;
+margin-left:-70px;
+margin-top:-20px;
+border-radius:45% 18% 10% 55% / 44% 52% 10% 31% ;
+background-color:hsl(33, 86%,80%);
+}
+
+.jack .bground .circle_bg .inner-c .sword .blade .handle .clothe1 .arm1 {
+width:40px;
+height:21px;
+border-top:2px solid transparent;
+margin-left:-40px;
+margin-top:-25px;
+background-color:hsl(33, 86%,80%);
+}
+
+.clothe2{	
+width:200px;
+height:100px;
+margin-top:-150px;
+margin-left:-70px;
+border-radius:70% 0% 68% 0% / 50% 39% 45% 31% ;
+background-color:white;
+}
+
+.clothe3{
+width:151px;
+height:179px;
+margin-top:-204px;
+margin-left:80px;
+transform:rotate(180deg);
+border-radius: 70% 0% 28% 61% / 56% 35% 0% 42% ;
+background-color:white;
+display:flex;
+}
+
+.clothe3-s {
+width:31px;
+height:129px;
+margin-top:50px;
+margin-left:120px;
+border-radius: 70% 0% 28% 61% / 56% 35% 0% 42% ;
+background-color:grey;
+}
+
+.clothe3 .hand0 {
+width:45px;
+height:45px;
+margin-left:60px;
+margin-top:-30px;
+border-radius:45% 18% 10% 55% / 44% 52% 10% 31% ;
+background-color:hsl(33, 86%,80%);
+}
+
+.clothe3 .arm0{
+width:80px;
+height:21px;
+border-radius:33% 0% 0% 0% / 70% 0% 0% 0% ;
+transform:rotate(-5deg);
+margin-left:10px;
+margin-top:-25px;
+background-color:hsl(33, 86%,80%);
+}
+.clotheback {
+width:270px;
+height:210px;
+border-radius:52% 20% 0% 0% / 50% 60% 0% 0%  ;
+margin-top:230px;
+margin-left:-285px;
+background-color:white;
+}
+
+.shadow {
+width:35px;
+height:210px;
+margin-top:00px;
+margin-left:25px;     
+background-color:hsl(0, 0%,30%);
+}
+
+.flag0 {
+width: 0;
+height: 0;
+border-style: solid;
+margin-left:-95px;
+margin-top:-100px;
+border-width: 0 0 100px 100px;
+border-color: transparent transparent white transparent;
+}
+
+.flag1 {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 100px 0px 00px 100px;
+margin-top:-100px;
+margin-left:260px;
+border-color: transparent transparent transparent white;
+}
+
+.face {
+width:75px;
+height:100px;
+margin-top:-130px;
+margin-left:-40px;
+background-color:hsl(33, 86%,80%);
+}
+
+.hair {
+width: 0; 
+height: 0;
+transform:rotate(90deg);
+border-left: 20px solid black;
+border-right: 20px solid transparent;
+border-top: 32px solid black;
+margin-left:-22px;
+margin-top:-130px;
+border-bottom: 45px solid black; 
+}
