@@ -1,3 +1,5 @@
 # css-only
-
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.channel4.com%2Fprogrammes%2Fsamurai-jack&psig=AOvVaw0kUQCgKiVkUY1v_M5K3fpZ&ust=1708136311455000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCnqLiBr4QDFQAAAAAdAAAAABAE
+**IMAGEN DE REFERENCIA**
+![jack](https://github.com/G2309/css-only/assets/106942151/4838cb45-bedb-4c3b-9b4b-66cbc20101f3)
+**RESULTADO**
+![jack-final](https://github.com/G2309/css-only/assets/106942151/dee36cb4-9788-4ecf-b927-c8397eba96cc)
